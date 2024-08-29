@@ -219,6 +219,7 @@ def plot_columns_percent_by_cluster(
             stat="percent",
             discrete=True,
             shrink=0.8,
+            palette='tab10'
         )
 
         n_clusters = dataframe[column_cluster].nunique()
